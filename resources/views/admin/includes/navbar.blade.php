@@ -15,7 +15,6 @@
     <ul class="navbar-nav navbar-right">
 
         @include('admin.includes.navbar.language')
-
         @include('admin.includes.navbar.currency')
 
         @if(!empty(getAiContentsSettingsName("status")) and !empty(getAiContentsSettingsName("active_for_admin_panel")))
