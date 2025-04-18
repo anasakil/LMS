@@ -235,9 +235,9 @@ return [
     'not_bought' => 'Not Purchased!',
     'not_access' => 'Access Denied!',
     'not_access_to_this_content' => 'You dont have access to this content!',
-    'play' => 'Play',
+    'play' => 'Start',
     'play_online' => 'Play (Stream)',
-    'read' => 'Read',
+    'read' => 'Start',
 
     'are_you_sure' => 'Are you sure?',
     'deleteAlertHint' => "This action cannot be undone!",
