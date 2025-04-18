@@ -92,13 +92,19 @@
                         </li>
                     @endif
 
-                    @if(!empty($navbarPages) and count($navbarPages))
-                        @foreach($navbarPages as $navbarPage)
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ $navbarPage['link'] }}">{{ $navbarPage['title'] }}</a>
-                            </li>
-                        @endforeach
-                    @endif
+                       <ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link" href="{{ url('/') }}">Accueil</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{ url('/classes?sort=newest') }}">Cours</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{ url('/products') }}">Boutique</a>
+    </li>
+</ul>
+
+
                 </ul>
             </div>
 
@@ -129,7 +135,6 @@
                     @include('web.default.includes.shopping-cart-dropdwon')
 
                     <div class="border-left mx-15"></div>
-
                     @include('web.default.includes.notification-dropdown')
                 </div>
 
