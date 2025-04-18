@@ -93,8 +93,7 @@
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.1",
-        "phpunit/phpunit": "^9.5.10",
-        "spatie/laravel-ignition": "1.6.4"
+        "phpunit/phpunit": "^9.5.10"
     },
     "autoload": {
         "psr-4": {
@@ -102,6 +101,9 @@
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         },
+        "classmap": [
+            "app/PaymentChannels/Drivers/Paysera/WebToPay.php"
+        ],
         "files": [
             "app/Helpers/helper.php",
             "app/Mixins/Geo/Geo.php",
