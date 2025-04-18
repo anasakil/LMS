@@ -48,7 +48,7 @@ return [
     'not_conducted' => 'Non réalisé',
 
     'upcoming' => 'À venir',
-    'start_learning' => 'Commencer à apprendre',
+    'start_learning' => 'Se lancer',
     'my_purchases_no_result' => 'Pas de cours acheté !',
     'my_purchases_no_result_hint' => 'Commencez à apprendre auprès des meilleurs formateurs et profitez-en...',
 

@@ -112,11 +112,11 @@
 
                 @if(!empty($navBtnUrl))
                     <a href="{{ $navBtnUrl }}" class="d-none d-lg-flex btn btn-sm btn-primary nav-start-a-live-btn">
-                        {{ $navBtnText }}
+                    {{ trans('panel.start_learning') }}
                     </a>
 
                     <a href="{{ $navBtnUrl }}" class="d-flex d-lg-none text-primary nav-start-a-live-btn font-14">
-                        {{ $navBtnText }}
+                    {{ trans('panel.start_learning') }}
                     </a>
                 @endif
 
