@@ -691,16 +691,16 @@
                 <div class="row align-items-center">
                     <div class="col-12 col-lg-6">
                         <div class="">
-                            <h2 class="font-36 font-weight-bold text-dark">{{ $becomeInstructorSection['title'] ?? '' }}</h2>
+                            <h2 class="font-36 font-weight-bold text-dark">{{ trans('update.become_an_instructor') }}</h2>
                             <p class="font-16 font-weight-normal text-gray mt-10">{{ $becomeInstructorSection['description'] ?? '' }}</p>
 
                             <div class="mt-35 d-flex align-items-center">
                                 @if(!empty($becomeInstructorSection['button1']) and !empty($becomeInstructorSection['button1']['title']) and !empty($becomeInstructorSection['button1']['link']))
-                                    <a href="{{ $becomeInstructorSection['button1']['link'] }}" class="btn btn-primary mr-15">{{ $becomeInstructorSection['button1']['title'] }}</a>
+                                    <a href="{{ $becomeInstructorSection['button1']['link'] }}" class="btn btn-primary mr-15">{{ trans('update.become_an_instructor') }}</a>
                                 @endif
 
                                 @if(!empty($becomeInstructorSection['button2']) and !empty($becomeInstructorSection['button2']['title']) and !empty($becomeInstructorSection['button2']['link']))
-                                    <a href="{{ $becomeInstructorSection['button2']['link'] }}" class="btn btn-outline-primary">{{ $becomeInstructorSection['button2']['title'] }}</a>
+                                    <a href="{{ $becomeInstructorSection['button2']['link'] }}" class="btn btn-outline-primary">{{ trans('update.item_type_registrationPackage') }}</a>
                                 @endif
                             </div>
                         </div>

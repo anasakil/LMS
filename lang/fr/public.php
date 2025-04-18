@@ -235,9 +235,9 @@ return [
     'not_bought' => 'Non acheté !',
     'not_access' => 'Accès refusé !',
     'not_access_to_this_content' => 'Vous n\'avez pas accès à ce contenu !',
-    'play' => 'Jouer',
+    'play' => 'commencer',
     'play_online' => 'Jouer (Stream)',
-    'read' => 'Lire',
+    'read' => 'commencer',
 
     'are_you_sure' => 'Êtes-vous sûr ?',
     'deleteAlertHint' => "Cette action est irréversible !",

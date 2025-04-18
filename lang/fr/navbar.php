@@ -9,7 +9,7 @@ return [
     */
 
     'search_anything' => 'Rechercher...',
-    'home' => 'Accueil',
+    'home' => 'Accueil',  
     'about_us' => 'À propos',
     'contact' => 'Contact',
     'blog' => 'Blog',
